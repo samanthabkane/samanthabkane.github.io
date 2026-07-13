@@ -98,7 +98,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 .eyebrow-rule {
   border: none;
   border-top: 1px solid var(--rule);
-  margin: 0 0 40px 0;
+  margin: 0 0 22px 0;
 }
 
 /* Main */
@@ -149,7 +149,7 @@ h2 {
 }
 
 /* Research sections */
-.research-section { margin-bottom: 52px; }
+.research-section { margin-bottom: 68px; }
 .research-section:last-child { margin-bottom: 0; }
 .pub-list {
   list-style: none;
