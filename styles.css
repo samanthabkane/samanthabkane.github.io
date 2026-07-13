@@ -82,16 +82,18 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 /* Section label — recurring signature element */
 .eyebrow {
   font-family: var(--serif);
-  font-size: 0.85rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   color: var(--accent);
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 12px;
+  margin-bottom: 14px;
 }
 .eyebrow::before {
   content: '§';
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 .eyebrow-rule {
   border: none;
