@@ -34,7 +34,7 @@ a:hover, a:focus-visible { border-bottom-color: var(--accent); }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-bottom-color: transparent; }
 
 .wrap {
-  max-width: 780px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 28px;
 }
@@ -126,14 +126,14 @@ h2 {
 /* Landing hero */
 .hero {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 200px 1fr;
   gap: 40px;
   align-items: start;
   margin-bottom: 8px;
 }
 .hero-photo {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 4px;
   overflow: hidden;
   background: var(--surface);
